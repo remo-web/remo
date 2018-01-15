@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        
+        <title>Você vai contra a maré, nós te ajudamos a Remar.</title>
+        
+        <!-- FONTS | Google -->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Passion+One:400,700,900"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+
+        <!-- CSS | Material Components -->
+        <link rel="stylesheet"
+              href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        <!-- CSS | Custom -->
+        <link rel="stylesheet"
+              href="styles.css">
+        
+    </head>
+    
+    <body>
+        <video class="remo-bg"
+               id="remo-video_bg"
+               poster=""
+               playsinline
+               autoplay
+               loop
+               muted>
+            <!--
+            <source class="remo-bg"
+                    id="remo-video_bg-webm"
+                    src=""
+                    type="video/webm">
+            -->
+            <source class="remo-bg"
+                    id="remo-video_bg-mp4"
+                    src="./video/remo-video_bg-clear.mp4"
+                    type="video/mp4">
+        </video>
+        <main>
+            <section>
+                <div class="mdc-layout-grid remo-grid--center">
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5"></div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"
+                             style="text-align: center">
+                            <img src="img/remo-logo.svg"
+                                 width="40%">
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                            <button class="mdc-button mdc-button--stroked remo-quadrado">
+                                <h1 class="mdc-typography--title">
+                                    Quem Somos
+                                </h1>
+                            </button>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                            <button class="mdc-button mdc-button--stroked remo-quadrado">
+                                <h1 class="mdc-typography--title">
+                                    De onde viemos
+                                </h1>
+                            </button>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                            <button class="mdc-button mdc-button--stroked remo-quadrado">
+                                <h1 class="mdc-typography--title">
+                                    Para aonde vamos
+                                </h1>
+                            </button>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                            <button class="mdc-button mdc-button--stroked remo-quadrado">
+                                <h1 class="mdc-typography--title">
+                                    Embarque com a gente
+                                </h1>
+                            </button>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+                integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+                crossorigin="anonymous">
+        </script>
+        <!-- JS | CUSTOM -->
+        <script src="/scripts.js"></script>
+        <!-- JS | MDC -->
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script type="text/javascript">
+            window.mdc.autoInit();
+        </script>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,49 @@
+html, body, section, main, .mdc-layout-grid{height: 100vh}
+body{margin: 0; background: #00001A}
+
+:root {
+    --mdc-theme-primary: white;
+    --mdc-theme-secondary: black;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Passion+One:400,700,900');
+
+.mdc-typography,
+.mdc-typography--display4,
+.mdc-typography--display3,
+.mdc-typography--display2,
+.mdc-typography--display1,
+.mdc-typography--headline,
+.mdc-typography--title,
+.mdc-typography--button{
+    font-family: 'Passion One', sans-serif;
+}
+
+.mdc-typography--subheading2,
+.mdc-typography--subheading1,
+.mdc-typography--body2,
+.mdc-typography--body1,
+.mdc-typography--caption{
+    font-family: 'Merriweather', serif;
+}
+
+.remo-grid--center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+video.remo-bg{
+    min-height: 100%; height: auto;
+    min-width: 100%; width: auto;
+    transform: translateX(-50%) translateY(-50%);
+    position: fixed; top: 50%; left: 50%;
+    background-color: black;
+    z-index: -100;
+    opacity: .6;
+    pointer-events: none;
+}
+
+.remo-quadrado{width: 100%}
+
+.mdc-button--raised{background-blend-mode: difference}
