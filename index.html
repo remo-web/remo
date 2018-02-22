@@ -8,10 +8,162 @@
         <meta http-equiv="X-UA-Compatible"
               content="IE=edge">
         
-        <title>Você vai contra a maré, nós te ajudamos a Remar.</title>
+        <title></title>
+        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Passion+One:400,700,900');
+            
+            a{text-decoration: none; color: darkgray}            
+            h2{
+                font-family: 'Passion One', sans-serif;
+                font-weight: 400
+            }
+            div{
+                position: absolute; bottom: 50%; right: 50%; transform: translate(50%, 50%);
+                text-align: center;
+                max-width: 25%
+            }
+            div img{width: 100%; height: auto; margin-top: 35px}
+            
+            @keyframes reveal {
+                0% {opacity: 0; transform: scale(1.5,1.5);}
+                100% {opacity: 1; transform: scale(1,1);}
+            }
+            
+            @keyframes revealimg {
+                0% {opacity: 0;}
+                100% {opacity: 1;}
+            }
+            
+            .line-1{
+                opacity: 0;
+                animation-name: reveal;
+                animation-delay: 0.5s;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                -webkit-animation-name: reveal;
+                -webkit-animation-delay: 0.5s;
+                -webkit-animation-duration: 1s;
+                -webkit-animation-fill-mode: forwards;
+            }
+            
+            .line-2{
+                opacity: 0;
+                animation-name: reveal;
+                animation-delay: 2s;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                -webkit-animation-name: reveal;
+                -webkit-animation-delay: 2s;
+                -webkit-animation-duration: 1s;
+                -webkit-animation-fill-mode: forwards;
+            }
+            
+            .line-3{
+                opacity: 0;
+                animation-name: reveal;
+                animation-delay: 3s;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                -webkit-animation-name: reveal;
+                -webkit-animation-delay: 3s;
+                -webkit-animation-duration: 1s;
+                -webkit-animation-fill-mode: forwards;
+            }
+            
+            .line-4{
+                opacity: 0;
+                animation-name: reveal;
+                animation-delay: 4s;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                -webkit-animation-name: reveal;
+                -webkit-animation-delay: 4s;
+                -webkit-animation-duration: 1s;
+                -webkit-animation-fill-mode: forwards;
+            }
+            
+            .line-5 a{
+                opacity: 0;
+                animation-name: reveal;
+                animation-delay: 5s;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                -webkit-animation-name: reveal;
+                -webkit-animation-delay: 5s;
+                -webkit-animation-duration: 1s;
+                -webkit-animation-fill-mode: forwards;
+            }
+            
+            .line-6{
+                opacity: 0;
+                animation-name: reveal;
+                animation-delay: 6s;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                -webkit-animation-name: reveal;
+                -webkit-animation-delay: 6s;
+                -webkit-animation-duration: 1s;
+                -webkit-animation-fill-mode: forwards;
+            }
+            
+            .line-7{
+                opacity: 0;
+                animation-name: reveal;
+                animation-delay: 7s;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                -webkit-animation-name: reveal;
+                -webkit-animation-delay: 7s;
+                -webkit-animation-duration: 1s;
+                -webkit-animation-fill-mode: forwards;
+            }
+            
+            #image{
+                opacity: 0;
+                opacity: 0;
+                animation-name: revealimg;
+                animation-delay: 7s;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                -webkit-animation-name: revealimg;
+                -webkit-animation-delay: 7s;
+                -webkit-animation-duration: 1s;
+                -webkit-animation-fill-mode: forwards;
+            }
+        </style>
     </head>
     <body>
-        <img src="giphy.gif"
-             style="position: absolute; bottom: 50%; right: 50%; transform: translate(50%, 50%)">
+        <div>
+            <h2 class="line-1">Calma.</h2>
+            <h2 class="line-2">A empresa acabou de nascer!</h2>
+            <h2 class="line-3">Por enquanto estamos cuidando dos nossos clientes.</h2>
+            <h2 class="line-4">Mas vem trocar uma ideia com a gente:</h2>
+            <h2 class="line-5"><a href="mailto:embarque@remo.marketing" target="_top">embarque@remo.marketing</a></h2>
+            <br>
+            <a href="https://facebook.com/remomarketing" target="_blank" style="color: #4267b2">
+                <span class="fa-layers fa-fw line-6">
+                    <i class="far fa-circle" data-fa-transform="grow-30"></i>
+                    <i class="fab fa-facebook-f" data-fa-transform="grow-8"></i>
+                </span>
+            </a>
+            <br><br>
+            <h2 class="line-7">e toca o barco!</h2>
+            <img id="image">
+        </div>
     </body>
+    <script>
+        var description = [
+            "row1.gif",
+            "row2.gif",
+            "row3.gif",
+            "row4.gif",
+            "row5.gif",
+        ];
+        var size = description.length
+        var x = Math.floor(size*Math.random())
+        document.getElementById('image').src=description[x];
+    </script>
 </html>

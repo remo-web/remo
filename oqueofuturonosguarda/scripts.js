@@ -13,3 +13,13 @@ $(function() {
         mdc.ripple.MDCRipple.attachTo(btn);
     }
 });
+
+$(function(){
+    $('.mdc-button').click(function() {
+        $('.remo_home').addClass('remo_home__hide');
+        $('.mdc-button').addClass('animated fadeOutUp');
+        $('#QuemSomos').addClass('remo_somos');
+        $('#QuemSomos').removeClass('remo_somos__hide');
+        $('.remo_somos-content').addClass('animated zoomIn');
+    });
+});

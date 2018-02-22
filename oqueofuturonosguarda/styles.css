@@ -1,5 +1,5 @@
 html, body, section, main, .mdc-layout-grid{height: 100vh}
-body{margin: 0; background: #00001A}
+body{margin: 0; background: #00001A; overflow: hidden}
 
 :root {
     --mdc-theme-primary: white;
@@ -47,3 +47,30 @@ video.remo-bg{
 .remo-quadrado{width: 100%}
 
 .mdc-button--raised{background-blend-mode: difference}
+
+.remo_home__hide{
+    display: block;
+    animation-name: remo_section--transition__hide;
+    animation-duration: 4s
+}
+
+.remo_somos{
+    position: absolute;
+    top: 0;
+    animation-name: remo_section--transition__appear;
+    animation-duration: 4s
+}
+
+.remo_somos__hide{display: none;}
+
+@keyframes remo_section--transition__appear {
+    0%      {display: none}
+    50%     {display: block}
+    100%    {display: block}
+}
+
+@keyframes remo_section--transition__hide {
+    0%      {display: block}
+    50%     {display: none}
+    100%    {display: none}
+}
