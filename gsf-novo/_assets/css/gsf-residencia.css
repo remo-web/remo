@@ -1,0 +1,15 @@
+
+/* HEADER */
+.gsf-header--bg__residencia{
+    background-image: url(../img/header/remow_gsf-header--bg__residencia.jpg);
+}
+
+/* PAGAMENTO */
+.gsf-pagamento--image__residencia{
+    background-image: url(../img/pagamento/remow_gsf-pagamento--bg__residencia.jpg);
+}
+
+/* TESTEMUNHO */
+.gsf-testemunho__residencia{
+    background-image: url(../img/testemunho/bg/remow_gsf-testemunho--bg__agua.jpg);
+}

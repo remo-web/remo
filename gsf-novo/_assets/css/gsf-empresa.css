@@ -1,0 +1,15 @@
+
+/* HEADER */
+.gsf-header--bg__empresa{
+    background-image: url(../img/header/remow_gsf-header--bg__empresa.jpg);
+}
+
+/* PAGAMENTO */
+.gsf-pagamento--image__empresa{
+    background-image: url(../img/pagamento/remow_gsf-pagamento--bg__empresa.jpg);
+}
+
+/* TESTEMUNHO */
+.gsf-testemunho__empresa{
+    background-image: url(../img/testemunho/bg/remow_gsf-testemunho--bg__agua.jpg);
+}

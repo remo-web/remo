@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0"
+              name="viewport">
+        <meta content="IE=edge"
+              http-equiv="X-UA-Compatible">
+        
+        <!-- FONTS -->
+        <!-- Google -->
+        <link href="https://fonts.googleapis.com/css?family=Nixie+One"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=latin-ext"
+              rel="stylesheet">
+        <!-- FontAwesome -->
+        <link crossorigin="anonymous"
+              href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+              integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+              rel="stylesheet">
+        
+        <!-- CSS -->
+        <!-- Material Components -->
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+              rel="stylesheet">
+        <!-- Custom -->
+        <link href="../_assets/css/native.css"
+              rel="stylesheet"
+              type="text/css">
+        <link href="../_assets/css/mdc.css"
+              rel="stylesheet"
+              type="text/css">
+        <link href="../_assets/css/gsf.css"
+              rel="stylesheet"
+              type="text/css">
+        <link href="../_assets/css/gsf-sections.css"
+              rel="stylesheet"
+              type="text/css">
+        <link href="../_assets/css/gsf-sections-responsive.css"
+              rel="stylesheet"
+              type="text/css">
+        
+        <!-- COMUM - END -->
+        
+        <title>GSF | Condomínios</title>
+        
+        <!-- CSS -->
+        <!-- Custom -->
+        <link href="../_assets/css/gsf-condomio.css"
+              rel="stylesheet"
+              type="text/css">
+        
+    </head>
+    
+    <body>
+        
+        <!-- TOP APP BAR -->
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-theme--background"
+                w3-include-html="../_assets/html/menu.html">
+        </header>
+        
+        <!-- DRAWER -->
+        <aside class="mdc-drawer mdc-drawer--temporary mdc-typography gsf-hide-desktop"
+               w3-include-html="../_assets/html/drawer.html">
+        </aside>
+        
+        <div class="mdc-layout-grid">
+            
+            <!-- HEADER -->
+            <section class="mdc-layout-grid__inner gsf-header"
+                     id="top">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-4-phone gsf-header--bg gsf-header--bg__condominio">
+                    <div class="mdc-layout-grid__inner gsf-header__inner">
+                        <!-- LOGO E CONTATOS -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-7-desktop mdc-layout-grid__cell--span-4-phone gsf-header--logo__wrapper">
+                            <div class="gsf-header--logo gsf-hide-phone gsf--center">
+                                <img src="../_assets/img/logo/remow_gsf-logo--full--color__light.svg">
+                                <div class="mdc-button--group__side">
+                                    <button aria-label="Facebook"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </span>
+                                    </button>
+                                    <button aria-label="Twitter"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="fab fa-twitter"></i>
+                                        </span>
+                                    </button>
+                                    <button aria-label="WhatsApp"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </span>
+                                    </button>
+                                    <button aria-label="Instagram"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </span>
+                                    </button>
+                                    <button aria-label="E-mail"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="far fa-envelope"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="gsf-header--logo gsf-hide-desktop gsf--center">
+                                <img src="../_assets/img/logo/remow_gsf-logo--fulver--color__light.svg">
+                                <div class="mdc-button--group__side">
+                                    <button aria-label="Facebook"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </span>
+                                    </button>
+                                    <button aria-label="Twitter"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="fab fa-twitter"></i>
+                                        </span>
+                                    </button>
+                                    <button aria-label="WhatsApp"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </span>
+                                    </button>
+                                    <button aria-label="Instagram"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </span>
+                                    </button>
+                                    <button aria-label="E-mail"
+                                            class="mdc-fab mdc-fab--mini">
+                                        <span class="mdc-fab__icon">
+                                            <i class="far fa-envelope"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TEXTO -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-phone">
+                            <div class="mdc-card gsf-header__card">
+                                <div class="mdc-card__content">
+                                    <div class="mdc-card__content--title">
+                                        <h2 class="mdc-typography--headline6 mdc-theme--text-primary-on-dark">Economize em seu Condomínio</h2>
+                                    </div>
+                                    <div class="mdc-card__content--body">
+                                        <p class="mdc-typography--body2 mdc-theme--text-secondary-on-dark">Com a GSF, sua casa pode <strong><big>reduzir</big></strong> em até <strong><big>80%</big></strong> o consumo de <strong><big>água</big></strong> e em até <strong><big>100%</big></strong> o seu consumo de <strong><big>energia elétrica</big></strong>!</p>
+                                        <p class="mdc-typography--body2 mdc-theme--text-secondary-on-dark">Somos <strong><big>especialistas</big></strong> em gestão de recursos e nossa busca é proporcionar um <strong><big>alívio</big></strong> relevante e verdadeiramente significativo no seu <strong><big>orçamento</big></strong>.</p>
+                                        <p class="mdc-typography--body2 mdc-theme--text-secondary-on-dark">Nosso modelo de cobrança é <strong><big>simples</big></strong>, <strong><big>justo</big></strong> e <strong><big>acessível</big></strong>.</p>
+                                        <p class="mdc-typography--body2 mdc-theme--text-secondary-on-dark"><strong><big>Clique</big></strong> em uma das opções a seguir para entender melhor como nossa proposta funciona na prática:</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdc-button--group__pile">
+                                <button class="mdc-button mdc-button--raised mdc-button--full-width"
+                                        href="#nossos-processos"
+                                        id="processos-scroll">
+                                    Nosso Processo
+                                </button>
+                                <button class="mdc-button mdc-button--raised mdc-button--full-width"
+                                        href="#metodo-de-cobranca"
+                                        id="cobranca-scroll">
+                                    Método de Cobrança
+                                </button>
+                                <button class="mdc-button mdc-button--raised mdc-button--full-width"
+                                        href="#agende-uma-visita"
+                                        id="agende-scroll">
+                                    Agende uma Visita
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-1-desktop"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- PROCESSOS -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-processos"
+                     id="nossos-processos">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1-desktop"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-phone">
+                    <h2 class="mdc-typography--headline4 mdc-theme--text-primary-on-light">
+                       Macro-Processos GSF
+                    </h2>
+                    <h3 class="mdc-typography--subtitle1 mdc-theme--text-hint-on-light">
+                        As três etapas básicas do nosso serviço
+                    </h3>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Clique em <strong>saiba mais</strong> para entender a importância de cada uma das etapas e saber como cada processo se desenrola ao longo do relacionamento com nossos clientes. 
+                    </p>
+                </div>
+                <!-- Análise -->
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone gsf-processos__analise gsf--square gsf--center">
+                    <div class="gsf-processos__conteudo">
+                        <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">Processo #1</p>
+                        <h4 class="mdc-typography--headline5 mdc-theme--text-primary-on-dark">Análise</h4>
+                        <div>
+                            <aside aria-describedby="gsf-dialog-description"
+                                   aria-labelledby="gsf-dialog-label"
+                                   class="mdc-dialog"
+                                   id="gsf-dialog-analise"
+                                   role="alertdialog"
+                                   w3-include-html="../_assets/html/dialogs/analise.html">
+                            </aside>
+                        </div>
+                        <button class="mdc-button mdc-button--outlined mdc-theme--on-primary"
+                                id="gsf-mais-analise">saiba mais</button>
+                    </div>
+                </div>
+                <!-- Operação -->
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone gsf-processos__operacao gsf--square gsf--center">
+                    <div class="gsf-processos__conteudo">
+                        <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">Processo #2</p>
+                        <h4 class="mdc-typography--headline5 mdc-theme--text-primary-on-dark">Operação</h4>
+                        <div>
+                            <aside aria-describedby="gsf-dialog-description"
+                                   aria-labelledby="gsf-dialog-label"
+                                   class="mdc-dialog"
+                                   id="gsf-dialog-operacao"
+                                   role="alertdialog"
+                                   w3-include-html="../_assets/html/dialogs/operacao.html">
+                            </aside>
+                        </div>
+                        <button class="mdc-button mdc-button--outlined mdc-theme--on-primary"
+                                id="gsf-mais-operacao">saiba mais</button>
+                    </div>
+                </div>
+                <!-- Manutenção -->
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone gsf-processos__manutencao gsf--square gsf--center">
+                    <div class="gsf-processos__conteudo">
+                        <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">Processo #3</p>
+                        <h4 class="mdc-typography--headline5 mdc-theme--text-primary-on-dark">Manutenção</h4>
+                        <div>
+                            <aside aria-describedby="gsf-dialog-description"
+                                   aria-labelledby="gsf-dialog-label"
+                                   class="mdc-dialog"
+                                   id="gsf-dialog-manutencao"
+                                   role="alertdialog"
+                                   w3-include-html="../_assets/html/dialogs/manutencao.html">
+                            </aside>
+                        </div>
+                        <button class="mdc-button mdc-button--outlined mdc-theme--on-primary"
+                                id="gsf-mais-manutencao">saiba mais</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- PAGAMENTO -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-pagamento"
+                     id="metodo-de-cobranca">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5 gsf-pagamento--image gsf-pagamento--image__residencia"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5">
+                    <h2 class="mdc-typography--headline4 mdc-theme--text-primary-on-light">
+                       Método de Cobrança
+                    </h2>
+                    <h3 class="mdc-typography--subtitle1 mdc-theme--text-hint-on-light">
+                        Justo, prático e compreensível
+                    </h3>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Nossos clientes pagam somente e <strong>proporcionalmente</strong> ao benefício que recebem.
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Após a implementação dos projetos de otimização de recursos, nossa remunerção será exclusivamente baseada na <strong>econômia gerada</strong> em relação a média das contas dos últimos 12 meses do imóvel.
+                    </p>
+                    <br/><br/>
+                    <div class="mdc-layout-grid__inner gsf-pagamento--esquema">
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone">
+                            <i class="far fa-copy fa-3x"></i>
+                            <p class="mdc-typography--body2 mdc-theme--text-hint-on-light gsf-hide-desktop">Conta média em 12 meses</p>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-1-desktop mdc-layout-grid__cell--span-4-phone">
+                            <i class="fas fa-minus"></i>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone">
+                            <i class="far fa-file-alt fa-3x"></i>
+                            <p class="mdc-typography--body2 mdc-theme--text-hint-on-light gsf-hide-desktop">Conta pós-GSF</p>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-1-desktop mdc-layout-grid__cell--span-4-phone">
+                            <i class="fas fa-equals"></i>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone">
+                            <i class="fas fa-dollar-sign fa-3x"></i>
+                            <p class="mdc-typography--body2 mdc-theme--text-hint-on-light gsf-hide-desktop">Renda extra</p>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-1-desktop mdc-layout-grid__cell--span-4-phone">
+                            <i class="fas fa-long-arrow-alt-right fa-2x"></i>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone">
+                            <i class="fas fa-hand-holding-usd fa-3x"></i>
+                            <p class="mdc-typography--body2 mdc-theme--text-hint-on-light gsf-hide-desktop">% GSF</p>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__inner gsf-pagamento--esquema">
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-top mdc-layout-grid__cell--span-2-desktop gsf-hide-phone">
+                            <p class="mdc-typography--body2 mdc-theme--text-hint-on-light">Conta média em 12 meses</p>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-top mdc-layout-grid__cell--span-1-desktop">
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-top mdc-layout-grid__cell--span-2-desktop gsf-hide-phone">
+                            <p class="mdc-typography--body2 mdc-theme--text-hint-on-light">Conta pós-GSF</p>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-top mdc-layout-grid__cell--span-1-desktop">
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-top mdc-layout-grid__cell--span-2-desktop gsf-hide-phone">
+                            <p class="mdc-typography--body2 mdc-theme--text-hint-on-light">Renda extra</p>
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-top mdc-layout-grid__cell--span-1-desktop">
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-top mdc-layout-grid__cell--span-2-desktop gsf-hide-phone">
+                            <p class="mdc-typography--body2 mdc-theme--text-hint-on-light">% GSF</p>
+                        </div>
+                    </div>
+                    <br/>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Tire suas <strong>dúvidas</strong>, converse com nossa equipe de relacionamento:
+                    </p>
+                    <div class="mdc-button--group__side">
+                        <a class="mdc-button"
+                           href="#"
+                           target="_blank">
+                            <i class="mdc-button__icon far fa-comments fa-xs"></i>
+                            <i>chat</i> ao vivo
+                        </a>
+                        <a class="mdc-button"
+                           href="#"
+                           target="_blank">
+                            <i class="mdc-button__icon fab fa-whatsapp fa-xs"></i>
+                            Whatsapp
+                        </a>
+                        <a class="mdc-button"
+                           href="#"
+                           target="_blank">
+                            <i class="mdc-button__icon fas fa-phone fa-xs"></i>
+                            Telefone
+                        </a>
+                        <a class="mdc-button"
+                           href="#"
+                           target="_blank">
+                            <i class="mdc-button__icon far fa-envelope fa-xs"></i>
+                            E-mail
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- VARIEDADES -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-variedades"
+                     id="variedade">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-5">
+                    <h2 class="mdc-typography--headline4 mdc-theme--text-primary-on-light">
+                        Uma GSF, Inúmeras alternativas
+                    </h2>
+                    <h3 class="mdc-typography--subtitle1 mdc-theme--text-hint-on-light">
+                        Imóveis de todos os tipos e tamanhos podem ser mais eficientes.
+                    </h3>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Nossa equipe é capacitada e constantemente atualizada para encontrar e viabilizar alternativas mais eficientes para o uso dos seus recursos.
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Contas mais baratas são o resultado de mais eficiência.
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Economia e sustentabilidade andam juntas neste caso e podem ser adequadas a praticamente qualquer metragem de imóvel ou realidade financeira
+                    </p>
+                    <div class="mdc-chip-set">
+                        <div class="mdc-chip" tabindex="0">
+                            <div class="mdc-chip__text">CASAS</div>
+                        </div>
+                        <div class="mdc-chip" tabindex="0">
+                            <div class="mdc-chip__text">APARTAMENTOS</div>
+                        </div>
+                        <div class="mdc-chip" tabindex="0">
+                            <div class="mdc-chip__text">FLATS</div>
+                        </div>
+                        <div class="mdc-chip" tabindex="0">
+                            <div class="mdc-chip__text">SOBRADOS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-5">
+                    
+                    <ul class="mdc-image-list">
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__1.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__2.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__3.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__4.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__5.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__6.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__7.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__8.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__9.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__10.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__11.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__12.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__13.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__14.jpg">
+                            </div>
+                        </li>
+                        <li class="mdc-image-list__item">
+                            <div class="mdc-image-list__image-aspect-container">
+                                <img class="mdc-image-list__image"
+                                     src="../_assets/img/variedades/residencia/remo_gsf-variedades__residencia__15.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </section>
+            
+            <!-- TESTEMUNHO -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-testemunho gsf-testemunho__residencia"
+                     id="testemunho">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-4-phone gsf--center">
+                    <h1 class="mdc-typography--headline3">
+                        Com a palavra, nossos clientes
+                    </h1>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop gsf-hide-phone"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone">
+                    <!-- 1 -->
+                    <div class="mdc-card">
+                        <div class="mdc-card__content">
+                            <div class="mdc-card__content--body">
+                                <p class="mdc-typography--body1 mdc-theme--text-primary-on-dark">
+                                    "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows."
+                                </p>
+                                <img class="gsf-testemunho--avatar"
+                                     src="../_assets/img/testemunho/avatar/remow_gsf-testemunho--avatar__1.jpg">
+                                <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">
+                                    SAMUEL L. JACKSON<br/>
+                                    <span class="mdc-theme--text-hint-on-dark">
+                                        CEO @ <a href="#">MF Corp.</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone">
+                    <!-- 2 -->
+                    <div class="mdc-card">
+                        <div class="mdc-card__content">
+                            <div class="mdc-card__content--body">
+                                <p class="mdc-typography--body1 mdc-theme--text-primary-on-dark">
+                                    "Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime."
+                                </p>
+                                <img class="gsf-testemunho--avatar"
+                                     src="../_assets/img/testemunho/avatar/remow_gsf-testemunho--avatar__2.jpg">
+                                <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">
+                                    SAMUEL L. JACKSON<br/>
+                                    <span class="mdc-theme--text-hint-on-dark">
+                                        CTO @ <a href="#">MF Inst.</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone">
+                    <!-- 3 -->
+                    <div class="mdc-card">
+                        <div class="mdc-card__content">
+                            <div class="mdc-card__content--body">
+                                <p class="mdc-typography--body1 mdc-theme--text-primary-on-dark">
+                                    "My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there."
+                                </p>
+                                <img class="gsf-testemunho--avatar"
+                                     src="../_assets/img/testemunho/avatar/remow_gsf-testemunho--avatar__3.jpg">
+                                <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">
+                                    SAMUEL L. JACKSON<br/>
+                                    <span class="mdc-theme--text-hint-on-dark">
+                                        CMO @ <a href="#">MF Ent.</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-4-phone">
+                    <!-- 4 -->
+                    <div class="mdc-card">
+                        <div class="mdc-card__content">
+                            <div class="mdc-card__content--body">
+                                <p class="mdc-typography--body1 mdc-theme--text-primary-on-dark">
+                                    "Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime."
+                                </p>
+                                <img class="gsf-testemunho--avatar"
+                                     src="../_assets/img/testemunho/avatar/remow_gsf-testemunho--avatar__4.jpg">
+                                <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">
+                                    SAMUEL L. JACKSON<br/>
+                                    <span class="mdc-theme--text-hint-on-dark">
+                                        COO @ <a href="#">MF Unit.</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+            </section>
+            
+            <!-- CONTATO -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-contato"
+                     id="agende-uma-visita"
+                     w3-include-html="../_assets/html/contato.html">
+            </section>
+            
+            <!-- FOOTER -->
+            <footer class="mdc-layout-grid__inner gsf-footer"
+                    w3-include-html="../_assets/html/footer.html">
+            </footer>
+            
+        </div>
+        
+        <!-- JS -->
+        <!-- jQuery -->
+        <script crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                src="https://code.jquery.com/jquery-3.3.1.min.js">
+        </script>
+        <!-- MaterialComponents -->
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script type="text/javascript">window.mdc.autoInit();</script>
+        <script src="../_assets/js/mdc.js"></script>
+        
+        <!-- Custom -->
+        <script src="../_assets/js/gsf.js"></script>
+        <script src="../_assets/js/include.js"></script>
+        <script>includeHTML();</script>
+        <script src="../_assets/js/menu.js"></script>
+        
+    </body>
+    
+</html>

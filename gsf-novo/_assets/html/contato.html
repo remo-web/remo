@@ -1,0 +1,270 @@
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 gsf--center">
+                    <h1 class="mdc-typography--headline3">
+                        Agende uma visita
+                    </h1>
+                    <hr class="mdc-list-divider">
+                    <span class="mdc-typography--overline">Gratuita . sem compromisso</span>
+                    <hr class="mdc-list-divider">
+                    <h2 class="mdc-typography--subtitle1 mdc-theme--text-secondary-on-light">
+                        Um de nossos consultores irá ao seu imóvel, na data e hora marcados. Iremos verificar a viabilidade do projeto, estimar o custo de implantação e projetar a expectiva de retorno.
+                    </h2>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8">
+                    <form action="visita/visita.php"
+                          class="mdc-layout-grid__inner"
+                          id="gsf_formVisita"
+                          method="post"
+                          name="gsf-form-visita">
+                        <!-- nome -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+                            <div class="mdc-text-field">
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-nome"
+                                       name="gsf-visita-nome"
+                                       type="text"
+                                       required>
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-nome">
+                                    Nome Completo
+                                </label>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- telefone -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+                            <div class="mdc-text-field">
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-telefone"
+                                       name="gsf-visita-telefone"
+                                       type="number">
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-telefone">
+                                    Telefone
+                                </label>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- e-mail -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+                            <div class="mdc-text-field">
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-email"
+                                       name="gsf-visita-email"
+                                       type="email"
+                                       required>
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-email">
+                                    E-mail
+                                </label>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- ramal -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+                            <div class="mdc-text-field">
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-ramal"
+                                       name="gsf-visita-ramal"
+                                       type="number">
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-ramal">
+                                    (ramal)
+                                </label>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- tipo de imovel -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                            <p class="mdc-typography--overline">Selecione o tipo de imóvel para visita:</p>
+                            <div class="mdc-form-field">
+                                <div class="mdc-radio">
+                                    <input class="mdc-radio__native-control"
+                                           id="gsf-visita-tipo-residencia"
+                                           name="gsf-visita-tipo"
+                                           type="radio"
+                                           checked>
+                                    <div class="mdc-radio__background">
+                                        <div class="mdc-radio__outer-circle"></div>
+                                        <div class="mdc-radio__inner-circle"></div>
+                                    </div>
+                                </div>
+                                <label for="gsf-visita-tipo-residencia">Residência</label>
+                            </div>
+                            <div class="mdc-form-field">
+                                <div class="mdc-radio">
+                                    <input class="mdc-radio__native-control"
+                                           id="gsf-visita-tipo-condominio-red"
+                                           name="gsf-visita-tipo"
+                                           type="radio">
+                                    <div class="mdc-radio__background">
+                                        <div class="mdc-radio__outer-circle"></div>
+                                        <div class="mdc-radio__inner-circle"></div>
+                                    </div>
+                                </div>
+                                <label for="gsf-visita-tipo-condominio-red">Condomínio Residencial</label>
+                            </div>
+                            <div class="mdc-form-field">
+                                <div class="mdc-radio">
+                                    <input class="mdc-radio__native-control"
+                                           id="gsf-visita-tipo-condominio-emp"
+                                           name="gsf-visita-tipo"
+                                           type="radio">
+                                    <div class="mdc-radio__background">
+                                        <div class="mdc-radio__outer-circle"></div>
+                                        <div class="mdc-radio__inner-circle"></div>
+                                    </div>
+                                </div>
+                                <label for="gsf-visita-tipo-condominio-emp">Condomínio Empresarial</label>
+                            </div>
+                            <div class="mdc-form-field">
+                                <div class="mdc-radio">
+                                    <input class="mdc-radio__native-control"
+                                           id="gsf-visita-tipo-empresa"
+                                           name="gsf-visita-tipo"
+                                           type="radio">
+                                    <div class="mdc-radio__background">
+                                        <div class="mdc-radio__outer-circle"></div>
+                                        <div class="mdc-radio__inner-circle"></div>
+                                    </div>
+                                </div>
+                                <label for="gsf-visita-tipo-empresa">Empresa</label>
+                            </div>
+                        </div>
+                        <!-- endereço -->
+                        <!-- rua -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
+                            <div class="mdc-text-field">
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-endereco"
+                                       name="gsf-visita-endereco"
+                                       type="text"
+                                       required>
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-endereco">
+                                    Rua
+                                </label>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- numero -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                            <div class="mdc-text-field">
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-numero"
+                                       name="gsf-visita-numero"
+                                       type="number"
+                                       required>
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-numero">
+                                    Número
+                                </label>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- bloco -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                            <div class="mdc-text-field">
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-bloco"
+                                       name="gsf-visita-bloco"
+                                       type="text">
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-bloco">
+                                    Bloco
+                                </label>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- complemento -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                            <div class="mdc-text-field">
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-complemento"
+                                       name="gsf-visita-complemento"
+                                       type="text">
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-complemento">
+                                    Complemento
+                                </label>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- cep -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                            <div class="mdc-text-field">
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-cep"
+                                       name="gsf-visita-cep"
+                                       type="number"
+                                       required>
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-cep">
+                                    CEP
+                                </label>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- agenda -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                            <p class="mdc-typography--overline">Selecione data e horário para sua visita:</p>
+                            <p class="mdc-typography--caption mdc-theme--text-hint-on-light">Consultaremos a disponibilidade dos nossos técnicos e você receberá um e-mail de confirmação do agendamento ou sugerindo horários que tenhamos abertos em nossa agenda.</p>
+                        </div>
+                        <!-- data -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3">
+                            <div class="mdc-text-field mdc-text-field--box mdc-text-field--with-leading-icon">
+                                <i class="mdc-text-field__icon far fa-calendar-alt"
+                                   tabindex="0"></i>
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-data"
+                                       name="gsf-visita-data"
+                                       type="date"
+                                       required>
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- hora -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                            <div class="mdc-text-field mdc-text-field--box mdc-text-field--with-leading-icon">
+                                <i class="mdc-text-field__icon far fa-clock"
+                                   tabindex="0"></i>
+                                <input class="mdc-text-field__input"
+                                       id="gsf-visita-hora"
+                                       name="gsf-visita-hora"
+                                       max="18:00"
+                                       min="08:00"
+                                       step="1800"
+                                       type="time">
+                                <div class="mdc-line-ripple"></div>
+                            </div>
+                        </div>
+                        <!-- observações -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                            <div class="mdc-text-field mdc-text-field--textarea">
+                                <textarea class="mdc-text-field__input"
+                                          cols="40"
+                                          id="gsf-visita-obs"
+                                          name="gsf-visita-obs"
+                                          rows="8"
+                                          type="text"></textarea>
+                                <label class="mdc-floating-label"
+                                       for="gsf-visita-obs">
+                                    Observações
+                                </label>
+                            </div>
+                        </div>
+                        <!-- enviar -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 gsf--right">
+                            <button class="mdc-button mdc-button--raised"
+                                    id="gsf-visita-enviar"
+                                    name="gsf-visita-enviar"
+                                    type="submit"
+                                    value="gsf_formVisita">
+                                enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
