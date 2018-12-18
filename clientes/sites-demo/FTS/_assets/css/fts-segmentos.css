@@ -1,0 +1,68 @@
+.fts-segmentos__header--bg{
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+    height: 100vh;
+}
+
+.fts-segmentos__header--bg-imagens{
+    width: 33vw; height: 100vh;
+}
+
+.fts-segmentos__header--bg-industria,
+.fts-segmentos__header--bg-aviacao,
+.fts-segmentos__header--bg-distribuidoras{
+    display: table-cell;
+    width: 33vw; height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.fts-segmentos__header--bg-industria{
+    background-image: url(../img/segmentos/remow_fts-segmentos__header--bg-industria-4096x2160.jpg);
+}
+.fts-segmentos__header--bg-aviacao{
+    background-image: url(../img/segmentos/remow_fts-segmentos__header--bg-aviacao-4096x2160.jpg);
+}
+.fts-segmentos__header--bg-distribuidoras{
+    background-image: url(../img/segmentos/remow_fts-segmentos__header--bg-distribuidoras-4096x2160.jpg)
+}
+
+.fts-segmentos--opcoes{margin-top: 8vh}
+.fts-segmentos--opcoes-distribuidoras{background-color: var(--mdc-theme-third, #72bf44);}
+.fts-segmentos--opcoes-industria{background-color: var(--mdc-theme-secondary, #ec2326);}
+.fts-segmentos--opcoes-aviacao{background-color: var(--mdc-theme-primary, #136fb7);}
+
+.fts-content{text-align: justify;}
+
+.fts-segmentos__distribuidoras .fts-segmentos__imagem-wrapper{background-color: var(--mdc-theme-third, #72bf44);}
+
+.fts-segmentos__imagem-wrapper img{
+    position: relative;
+    bottom: -12px; right: -12px;
+    max-width: 100%;
+}
+
+.fts-segmentos__distribuidoras .fts-segmentos__imagem {
+    background-color: var(--mdc-theme-third, #72bf44);
+    margin: 22px 22px 22px 0px;
+    padding-left: 12px;
+    max-width: 50%;
+    float: left;
+}
+
+.fts-segmentos__industria .fts-segmentos__imagem {
+    background-color: var(--mdc-theme-secondary, #ec2326);
+    margin: 0px 0px 22px 22px;
+    padding-left: 12px;
+    max-width: 50%;
+    float: right;
+}
+
+.fts-segmentos__aviacao .fts-segmentos__imagem {
+    background-color: var(--mdc-theme-primary, #136fb7);
+    margin: 0px 22px 22px 0px;
+    padding-left: 12px;
+    max-width: 50%;
+    float: left;
+}
