@@ -1,0 +1,15 @@
+@media (max-width: 479px){
+    
+    .fts-logo img {
+        width: 30vw; height: auto;
+    }
+    
+    /* -- HOME -- */
+    .fts-home__header--gradient {
+        background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    
+}
