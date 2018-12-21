@@ -9,7 +9,7 @@
 .fts-industria--bg{background-color: var(--mdc-theme-secondary, #ec2326);}
 .fts-aviacao--bg{background-color: var(--mdc-theme-third, #72bf44);}
 
-#fts-menu{color: --mdc-theme-on-surface}
+#fts-menu{color: var(--mdc-theme-on-surface, #FFFFFF);}
 
 /* CARD */
 .fts-card__primary{padding: 1rem}
@@ -59,7 +59,7 @@
 /* MENU ROLANTE */
 .fts-sticky {
     position: fixed;
-    top: 0;
+    top: 0; left: 0;
     height: 64px;
 }
 
@@ -73,9 +73,8 @@
 .fts-header .mdc-layout-grid, 
 .fts-header .mdc-layout-grid__inner{height: 100%}
 .fts-header--bg{
-    width: 100%; 
-    height: 100vh; 
-    background-size: cover;
+    width: 100%; height: 100vh; 
+    background-size: cover; background-position: center;
 }
 
 .fts-header--content{padding-bottom: 64px}
