@@ -1,0 +1,40 @@
+@media (max-width: 479px){
+    
+    .fts-hide-mobile{display: none;}
+    
+    /* -- MDC -- */
+    /* typography */
+    .mdc-typography--headline2{font-size: 12vw;}
+    .fts-home__empresa--imagens .mdc-image-list__item{width: calc(100% / 5 - 4.2px) !important;}
+    .mdc-top-app-bar__row{height: 64px;}
+    
+    /* -- FTS -- */
+    .fts-logo img {width: 25vw !important; height: auto;}
+    
+    /* HOME | header */
+    .fts-home__header--gradient {
+        background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0)) !important;
+        background-size: 60%;
+        background-repeat: repeat !important;
+    }
+    
+    .fts-header__home .fts-header--content p{margin-top: .18rem;}
+    
+    /* MENU */
+    .mdc-top-app-bar .mdc-button{font-size: 2.8vw;}
+    
+    /* HOME | clientes */
+    .fts-home__clientes--logo img{
+        width: 25vw !important;
+        padding: 0 var(--mdc-layout-grid-gutter-phone, 16px);
+    }
+    
+    /* HOME | fornecedores */
+    .fts-home__clientes .mdc-layout-grid__cell--span-4-phone,
+    .fts-home__fornecedores .mdc-layout-grid__cell--span-4-phone{
+        margin: var(--mdc-layout-grid-margin-phone, 16px);
+    }
+    
+    /* FOOTER */
+    .fts-footer img{width: 25vw !important;}
+}

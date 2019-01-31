@@ -1,0 +1,33 @@
+.fts-header__catalogo{
+    background-image: url(../img/catalogo/remow_fts-catalogo__header--bg-4096x2160.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fts-catalogo--opcoes{margin-top: 4vh; margin-bottom: 4vh}
+.fts-catalogo--opcoes-distribuidoras{background-color: var(--mdc-theme-third, #72bf44);}
+.fts-catalogo--opcoes-industria{background-color: var(--mdc-theme-secondary, #ec2326);}
+.fts-catalogo--opcoes-aviacao{background-color: var(--mdc-theme-primary, #136fb7);}
+
+hr{width: 8vw}
+.fts-catalogo__distribuidoras hr{border-color: var(--mdc-theme-third, #72bf44);}
+.fts-catalogo__industria hr{border-color: var(--mdc-theme-secondary, #ec2326);}
+.fts-catalogo__aviacao hr{border-color: var(--mdc-theme-primary, #136fb7);}
+
+[title~="Distribuidoras"] > i{color: var(--mdc-theme-third, #72bf44);}
+[title~="Industrias"] > i{color: var(--mdc-theme-secondary, #ec2326);}
+[title~="Aviacao"] > i{color: var(--mdc-theme-primary, #136fb7);}
+
+.fts-catalogo .fts-card__title{text-transform: uppercase;}
+.fts-catalogo .mdc-card__media{background-position: center;}
+
+@keyframes opacity {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.fts-catalogo--produtos .mdc-layout-grid__cell{
+    animation-name: opacity;
+    animation-timing-function: ease;
+    animation-duration: 0.5s;
+}
