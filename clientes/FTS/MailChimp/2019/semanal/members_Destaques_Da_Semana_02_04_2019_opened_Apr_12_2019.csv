@@ -1,27 +1,27 @@
-"Email Address","First Name","Last Name",Address,"Phone Number",Birthday,"Apresentar como",Apelido,"nome de tela","Phone Number Residencial","Cidade de trabalho","Estado de trabalho","CEP de trabalho",Cargo,Setor,Empresa,"Ano de nascimento","Personalizado 1","Personalizado 2","Personalizado 3","Personalizado 4","Member Rating",Opens
-ftsbrasil@ftsbrasil.com.br,'FTS,Brasil',"          US",,,"'FTS Brasil'",,,,,,,,,,,,,,,4,4
-daniel.silva@ftsbrasil.com.br,,,"          US",,,daniel.silva@ftsbrasil.com.br,,,,,,,,,,,,,,,4,1
-sac@ftsbrasil.com.br,,,"          US",,,,,,,,,,,,,,,,,,4,1
-compras@ftsbrasil.com.br,"'Daniel FTS",Brasil',"          US",,,"'Daniel FTS Brasil'",,,,,,,,,,,,,,,4,1
-colleen@schultzproducts.com,Colleen,Schultz,"          US",,,"Colleen Schultz",,,,,,,,,,,,,,,4,3
-fernandaraso@gmail.com,,,"          US",,,,,,,,,,,,,,,,,,4,3
-financeiro@ftsbrasil.com.br,,,"          US",,,,,,,,,,,,,,,,,,4,1
-vinicius@mv13.com.br,,,"          US",,,,,,,,,,,,,,,,,,4,1
-evandro.monteiro@receita.pb.gov.br,"Evandro Maciel Monteiro",Filho,"          US",,,"Evandro Maciel Monteiro Filho",,,,,,,,,,,,,,,4,3
-joao.feliciano@omnibrasil.com.br,,,"          US",,,,,,,,,,,,,,,,,,4,1
-transcosta03@gmail.com,'Transcosta,Transportes',"          US",,,"'Transcosta Transportes'",,,,,,,,,,,,,,,4,1
-f-diesel@hotmail.com,F,Diesel,"          US",,,"F Diesel",,,,,,,,,,,,,,,4,1
-franciscoreis@br-petrobras.com.br,,,"          US",,,,,,,,,,,,,,,,,,3,1
-jgaldino@br-petrobras.com.br,,,"          US",,,,,,,,,,,,,,,,,,3,2
-marcussilva2@fedex.com,"'Marcus Soares da",Silva',"          US",,,"'Marcus Soares da Silva'",,,,,,,,,,,,,,,3,2
-frenesi6234@yahoo.com.br,,,"          US",,,,,,,,,,,,,,,,,,4,1
-comercial@boschmetal.com,,,"          US",,,,,,,,,,,,,,,,,,3,2
-embarque@remo.marketing,,,"          US",,,,,,,,,,,,,,,,,,4,2
-consultorvivoflaviojr@gmail.com,,,"          US",,,,,,,,,,,,,,,,,,3,1
-gilmar.souza@avijet.com.br,,,"          US",,,,,,,,,,,,,,,,,,3,1
-ornansilva@br-petrobras.com.br,,,"          US",,,,,,,,,,,,,,,,,,3,1
-admfor@jwsaraiva.com.br,"Administrativo - JW",Saraiva,"          US",,,"Administrativo - JW Saraiva",,,,,,,,,,,,,,,4,1
-joaoroberto@br-petrobras.com.br,,,"          US",,,,,,,,,,,,,,,,,,3,1
-orders@apsaviation.com,APS,Aviation,"          US",,,"APS Aviation",,,,,,,,,,,,,,,4,1
-joe@apsaviation.com,,,"          US",,,,,,,,,,,,,,,,,,4,2
-leandro@masteraviation.com.br,Leandro,Pagotto,"          US",,,"Leandro Pagotto",,,,,,,,,,,,,,,4,1
+Email Address,First Name,Last Name,Address,Phone Number,Member Rating,Opens
+ftsbrasil@ftsbrasil.com.br,'FTS,Brasil',          US,,4,4
+daniel.silva@ftsbrasil.com.br,,,          US,,4,1
+sac@ftsbrasil.com.br,,,          US,,4,1
+compras@ftsbrasil.com.br,'Daniel FTS,Brasil',          US,,4,1
+colleen@schultzproducts.com,Colleen,Schultz,          US,,4,3
+fernandaraso@gmail.com,,,          US,,4,3
+financeiro@ftsbrasil.com.br,,,          US,,4,1
+vinicius@mv13.com.br,,,          US,,4,1
+evandro.monteiro@receita.pb.gov.br,Evandro Maciel Monteiro,Filho,          US,,4,3
+joao.feliciano@omnibrasil.com.br,,,          US,,4,1
+transcosta03@gmail.com,'Transcosta,Transportes',          US,,4,1
+f-diesel@hotmail.com,F,Diesel,          US,,4,1
+franciscoreis@br-petrobras.com.br,,,          US,,3,1
+jgaldino@br-petrobras.com.br,,,          US,,3,2
+marcussilva2@fedex.com,'Marcus Soares da,Silva',          US,,3,2
+frenesi6234@yahoo.com.br,,,          US,,4,1
+comercial@boschmetal.com,,,          US,,3,2
+embarque@remo.marketing,,,          US,,4,2
+consultorvivoflaviojr@gmail.com,,,          US,,3,1
+gilmar.souza@avijet.com.br,,,          US,,3,1
+ornansilva@br-petrobras.com.br,,,          US,,3,1
+admfor@jwsaraiva.com.br,Administrativo - JW,Saraiva,          US,,4,1
+joaoroberto@br-petrobras.com.br,,,          US,,3,1
+orders@apsaviation.com,APS,Aviation,          US,,4,1
+joe@apsaviation.com,,,          US,,4,2
+leandro@masteraviation.com.br,Leandro,Pagotto,          US,,4,1
