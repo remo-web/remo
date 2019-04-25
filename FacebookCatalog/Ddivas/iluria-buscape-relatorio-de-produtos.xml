@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<produtos>
+  <produto>
+    <id_produto>60D41C</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-60d41c-brinco-sol-e-lua.html</link_produto>
+    <titulo>BRINCO SOL E LUA</titulo>
+    <preco>29,90</preco>
+    <parcelamento>5 x R$ 6,43</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/60D41C/EDBE22/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Rebelare</categoria>
+  </produto>
+  <produto>
+    <id_produto>631A28</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-631a28-top-faixa-kylie.html</link_produto>
+    <titulo>TOP FAIXA KYLIE</titulo>
+    <preco>14,95</preco>
+    <parcelamento>2 x R$ 7,75</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/631A28/F3D027/450xN.jpg</imagem>
+    <categoria>Roupas &gt; Tops/Blusas</categoria>
+  </produto>
+  <produto>
+    <id_produto>631AC2</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-631ac2-top-faixa-com-alca-kim.html</link_produto>
+    <titulo>TOP FAIXA COM ALÇA KIM</titulo>
+    <preco>20,00</preco>
+    <parcelamento>4 x R$ 5,32</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/631AC2/F3D1CD/450xN.jpg</imagem>
+    <categoria>Roupas &gt; Tops/Blusas</categoria>
+  </produto>
+  <produto>
+    <id_produto>655C0F</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-655c0f-saia-onca.html</link_produto>
+    <titulo>SAIA ONÇA</titulo>
+    <preco>24,50</preco>
+    <parcelamento>4 x R$ 6,52</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/655C0F/F99E0B/450xN.jpg</imagem>
+    <categoria>Roupas &gt; Saia</categoria>
+  </produto>
+  <produto>
+    <id_produto>655CF9</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-655cf9-body-onca.html</link_produto>
+    <titulo>BODY ONÇA</titulo>
+    <preco>24,50</preco>
+    <parcelamento>4 x R$ 6,52</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/655CF9/F9A068/450xN.jpg</imagem>
+    <categoria>Roupas &gt; Body</categoria>
+  </produto>
+  <produto>
+    <id_produto>656587</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-656587-top-1-ombro-so-onca.html</link_produto>
+    <titulo>TOP 1 OMBRO SÓ ONÇA</titulo>
+    <preco>17,50</preco>
+    <parcelamento>3 x R$ 6,12</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/656587/F9B8F7/450xN.jpg</imagem>
+    <categoria>Roupas &gt; Tops/Blusas</categoria>
+  </produto>
+  <produto>
+    <id_produto>65AC3C</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65ac3c-argola-manga-doce.html</link_produto>
+    <titulo>ARGOLA MANGA DOCE</titulo>
+    <preco>18,00</preco>
+    <parcelamento>3 x R$ 6,29</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65AC3C/FA70DA/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65AC51</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65ac51-brinco-amisty.html</link_produto>
+    <titulo>BRINCO AMISTY</titulo>
+    <preco>30,00</preco>
+    <parcelamento>6 x R$ 5,44</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65AC51/FA7103/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65AC79</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65ac79-brinco-manga-doce.html</link_produto>
+    <titulo>BRINCO MANGA DOCE</titulo>
+    <preco>20,00</preco>
+    <parcelamento>4 x R$ 5,32</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65AC79/FA715F/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65AC91</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65ac91-brinco-laluna.html</link_produto>
+    <titulo>BRINCO LALUNA</titulo>
+    <preco>25,00</preco>
+    <parcelamento>5 x R$ 5,38</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65AC91/FA7189/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65ACB4</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65acb4-brinco-digna.html</link_produto>
+    <titulo>BRINCO DIGNA</titulo>
+    <preco>25,00</preco>
+    <parcelamento>5 x R$ 5,38</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65ACB4/FA71DE/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65ACC2</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65acc2-brinco-triangulo.html</link_produto>
+    <titulo>BRINCO TRIÂNGULO</titulo>
+    <preco>25,00</preco>
+    <parcelamento>5 x R$ 5,38</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65ACC2/FA7207/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65ACC6</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65acc6-brinco-scarlet.html</link_produto>
+    <titulo>BRINCO SCARLET</titulo>
+    <preco>25,00</preco>
+    <parcelamento>5 x R$ 5,38</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65ACC6/FA7215/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65ACCF</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65accf-brinco-chiara.html</link_produto>
+    <titulo>BRINCO CHIARA</titulo>
+    <preco>25,00</preco>
+    <parcelamento>5 x R$ 5,38</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65ACCF/FA722C/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65ACE1</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65ace1-brinco-yumi.html</link_produto>
+    <titulo>BRINCO YUMI</titulo>
+    <preco>25,00</preco>
+    <parcelamento>5 x R$ 5,38</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65ACE1/FA724F/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65ACEB</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65aceb-brinco-laluna-buzio.html</link_produto>
+    <titulo>BRINCO LALUNA BÚZIO</titulo>
+    <preco>18,00</preco>
+    <parcelamento>3 x R$ 6,29</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65ACEB/FA7265/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65ACF4</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65acf4-brinco-suri.html</link_produto>
+    <titulo>BRINCO SURI</titulo>
+    <preco>20,00</preco>
+    <parcelamento>4 x R$ 5,32</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65ACF4/FA727E/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65ACFF</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65acff-brinco-egipcia.html</link_produto>
+    <titulo>BRINCO EGÍPCIA</titulo>
+    <preco>25,00</preco>
+    <parcelamento>5 x R$ 5,38</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65ACFF/FA72B0/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65AD0F</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65ad0f-brinco-vibrante.html</link_produto>
+    <titulo>BRINCO VIBRANTE</titulo>
+    <preco>26,00</preco>
+    <parcelamento>5 x R$ 5,59</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65AD0F/FA72E3/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65AD1D</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65ad1d-brinco-circulo.html</link_produto>
+    <titulo>BRINCO CÍRCULO</titulo>
+    <preco>20,00</preco>
+    <parcelamento>4 x R$ 5,32</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65AD1D/FA730E/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Laluna Acessórios</categoria>
+  </produto>
+  <produto>
+    <id_produto>65D141</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65d141-brinco-jasmim.html</link_produto>
+    <titulo>BRINCO JASMIM</titulo>
+    <preco>29,00</preco>
+    <parcelamento>5 x R$ 6,24</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65D141/FACF18/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>65D1FB</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65d1fb-costela-de-adao-ouro-velho.html</link_produto>
+    <titulo>COSTELA DE ADÃO OURO VELHO</titulo>
+    <preco>32,00</preco>
+    <parcelamento>6 x R$ 5,81</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65D1FB/FAD0E2/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>65D211</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65d211-brinco-costela-de-adao-prata.html</link_produto>
+    <titulo>BRINCO COSTELA DE ADÃO PRATA</titulo>
+    <preco>35,00</preco>
+    <parcelamento>7 x R$ 5,51</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65D211/FAD121/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>65F998</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65f998-brinco-gota.html</link_produto>
+    <titulo>BRINCO GOTA</titulo>
+    <preco>45,00</preco>
+    <parcelamento>9 x R$ 5,65</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65F998/FB3A11/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>65F9E9</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65f9e9-brinco-tassel-de-seda.html</link_produto>
+    <titulo>BRINCO TASSEL DE SEDA</titulo>
+    <preco>35,00</preco>
+    <parcelamento>7 x R$ 5,51</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65F9E9/FB3B0C/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>65F9FF</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65f9ff-brinco-tie-dye.html</link_produto>
+    <titulo>BRINCO TIE DYE</titulo>
+    <preco>32,00</preco>
+    <parcelamento>6 x R$ 5,81</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65F9FF/FB3B77/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>65FA20</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-65fa20-brinco-tulum.html</link_produto>
+    <titulo>BRINCO TULUM</titulo>
+    <preco>39,00</preco>
+    <parcelamento>7 x R$ 6,14</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/65FA20/FB3BA6/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>660449</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-660449-brinco-chuva-prata.html</link_produto>
+    <titulo>BRINCO CHUVA PRATA</titulo>
+    <preco>29,00</preco>
+    <parcelamento>5 x R$ 6,24</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/660449/FB5612/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>6604BE</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-6604be-brinco-lua-cheia.html</link_produto>
+    <titulo>BRINCO LUA CHEIA</titulo>
+    <preco>29,00</preco>
+    <parcelamento>5 x R$ 6,24</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/6604BE/FB5738/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>6604C7</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-6604c7-brinco-diva.html</link_produto>
+    <titulo>BRINCO DIVA</titulo>
+    <preco>29,00</preco>
+    <parcelamento>5 x R$ 6,24</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/6604C7/FB5754/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>6604E0</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-6604e0-brinco-costela-de-adao.html</link_produto>
+    <titulo>BRINCO COSTELA DE ADÃO</titulo>
+    <preco>35,00</preco>
+    <parcelamento>7 x R$ 5,51</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/6604E0/FB5792/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>6604F2</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-6604f2-brinco-costela-de-adao.html</link_produto>
+    <titulo>BRINCO COSTELA DE ADÃO</titulo>
+    <preco>35,00</preco>
+    <parcelamento>7 x R$ 5,51</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/6604F2/FB57B9/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>660500</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-660500-brinco-lua-negra.html</link_produto>
+    <titulo>BRINCO LUA NEGRA</titulo>
+    <preco>35,00</preco>
+    <parcelamento>7 x R$ 5,51</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/660500/FB57EC/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>660514</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-660514-brinco-lua.html</link_produto>
+    <titulo>BRINCO LUA</titulo>
+    <preco>39,00</preco>
+    <parcelamento>7 x R$ 6,14</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/660514/FB5832/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Stuff Bijoux</categoria>
+  </produto>
+  <produto>
+    <id_produto>660537</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-660537-.html</link_produto>
+    <titulo></titulo>
+    <preco>35,00</preco>
+    <parcelamento>7 x R$ 5,51</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/660537/FB5891/450xN.jpg</imagem>
+    <categoria></categoria>
+  </produto>
+  <produto>
+    <id_produto>66B35A</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-66b35a-macacao-jeans.html</link_produto>
+    <titulo>MACACÃO JEANS</titulo>
+    <preco>120,00</preco>
+    <parcelamento>12 x R$ 11,70</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/66B35A/FD2030/450xN.jpg</imagem>
+    <categoria>Roupas &gt; Macacão</categoria>
+  </produto>
+  <produto>
+    <id_produto>66B438</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-66b438-bolsa-estruturada-preta.html</link_produto>
+    <titulo>BOLSA ESTRUTURADA PRETA</titulo>
+    <preco>111,90</preco>
+    <parcelamento>12 x R$ 10,91</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/66B438/FD2222/450xN.jpg</imagem>
+    <categoria>Marcas &gt; Rebelare</categoria>
+  </produto>
+  <produto>
+    <id_produto>66B460</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-66b460-blusao-bicolor.html</link_produto>
+    <titulo>BLUSÃO BICOLOR</titulo>
+    <preco>149,90</preco>
+    <parcelamento>12 x R$ 14,61</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/66B460/FD226C/450xN.jpg</imagem>
+    <categoria>Roupas &gt; Tops/Blusas</categoria>
+  </produto>
+  <produto>
+    <id_produto>66B46F</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-66b46f-oculos-retro.html</link_produto>
+    <titulo>ÓCULOS RETRO</titulo>
+    <preco>79,00</preco>
+    <parcelamento>12 x R$ 7,70</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/66B46F/FD2295/450xN.jpg</imagem>
+    <categoria>Marcas &gt; D.divas</categoria>
+  </produto>
+  <produto>
+    <id_produto>66B486</id_produto>
+    <link_produto>http://www.ddivas.com.br/pd-66b486-body-praio.html</link_produto>
+    <titulo>BODY PRAIÔ</titulo>
+    <preco>65,00</preco>
+    <parcelamento>12 x R$ 6,34</parcelamento>
+    <disponibilidade>Disponível</disponibilidade>
+    <imagem>http://s3.amazonaws.com/img.iluria.com/product/66B486/FD22DF/450xN.jpg</imagem>
+    <categoria>Roupas &gt; Body</categoria>
+  </produto>
+</produtos>
