@@ -1,0 +1,44 @@
+{
+	"system": {
+	},
+	"modules": {
+		"Core": {
+			"ProductName": "Afterlogic Aurora Files"
+		},
+		"CoreWebclient": {
+			"HeaderModulesOrder": ["files", "contacts"],
+			"DefaultAnonymScreenHash": "login",
+			"DefaultUserScreenHash": "files",
+			"ThemeList": ["Default", "DeepForest", "Funny", "Sand"]
+		},
+		"DropboxAuthWebclient": {
+			"Scopes": "auth"
+		},
+		"OAuthIntegratorWebclient": {
+			"AllowNewUsersRegister": false
+		},
+		"FilesWebclient": {
+			"ShowCommonSettings": true,
+			"ShowFilesApps": false
+		},
+		"Dropbox": {
+			"Disabled": true
+		},
+		"DropboxFilestorage": {
+			"Disabled": true
+		},
+		"StandardLoginFormWebclient": {
+			"UseDropdownLanguagesView": true,
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/aurora-files\" target=\"_blank\">Afterlogic Aurora Files</a>"
+		},
+		"StandardRegisterFormWebclient": {
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/aurora-files\" target=\"_blank\">Afterlogic Aurora Files</a>"
+		},
+		"OverrideUserSettings": {
+			"Disabled": true
+		},
+		"Contacts": {
+			"ImportContactsLink": "https://afterlogic.com/docs/aurora-files/frequently-asked-questions/importing-contacts"
+		}
+	}
+}

@@ -1,0 +1,95 @@
+<div class="panel_top">
+	<h2 class="settings_heading" data-bind="i18n: {'key': '%MODULENAME%/HEADING_SETTINGS_TAB'}"></h2>
+</div>
+
+<div class="panel_center">
+	<div class="fields">
+		<div class="fieldset">
+			<div class="row" data-bind="visible: !bIsHttpsEnable">
+				<span data-bind="i18n: {'key': '%MODULENAME%/ERROR_HTTPS_NEEDED'}, style: {color: 'red'}"></span>
+			</div>	
+			<div class="row">
+				<label class="custom_checkbox" data-bind="css: {'checked': enableJscrypto}">
+					<span class="icon"></span>
+					<input type="checkbox" id="EnableJscrypto" data-bind="checked: enableJscrypto" />
+				</label>
+				<label for="EnableJscrypto" data-bind="i18n: {'key': '%MODULENAME%/LABEL_ENABLE_JSCRYPTO'}"></label>
+			</div>
+			<div class="hint" data-bind="i18n: {'key': '%MODULENAME%/HINT_ABOUT_JSCRYPTO'}"></div>
+			<div class="row" data-bind="visible: allowChangeSettings()">
+				<span class="label" data-bind="i18n: {'key': '%MODULENAME%/LABEL_ENCRYPTION_MODE'}"></span>
+				<span class="value">
+					<label class="custom_radio" data-bind="css: {'checked': encryptionMode() == Enums.EncryptionMode.AlwaysInEncryptedFolder, 'disabled': !bIsHttpsEnable || !enableJscrypto()}">
+						<span class="icon"></span>
+						<input type="radio" id="tab_always_in_encrypted_folder" data-bind="checked: bIsHttpsEnable && enableJscrypto() ?encryptionMode : false, attr: {'value': Enums.EncryptionMode.AlwaysInEncryptedFolder}" />
+					</label>
+					<label for="tab_always_in_encrypted_folder" data-bind="i18n: {'key': '%MODULENAME%/LABEL_ENCRYPTION_MODE_ALWAYS_IN_ENCRYPTED_FOLDER'}"></label>
+
+					<label class="custom_radio" data-bind="css: {'checked': encryptionMode() == Enums.EncryptionMode.Always, 'disabled': !bIsHttpsEnable || !enableJscrypto()}">
+						<span class="icon"></span>
+						<input type="radio" id="tab_always" data-bind="checked: bIsHttpsEnable && enableJscrypto() ? encryptionMode : false, attr: {'value': Enums.EncryptionMode.Always}" />
+					</label>
+					<label for="tab_always" data-bind="i18n: {'key': '%MODULENAME%/LABEL_ENCRYPTION_MODE_ALWAYS'}"></label>
+
+					<label class="custom_radio" data-bind="css: {'checked': encryptionMode() == Enums.EncryptionMode.AskMe, 'disabled': !bIsHttpsEnable || !enableJscrypto()}">
+						<span class="icon"></span>
+						<input type="radio" id="tab_askme" data-bind="checked: bIsHttpsEnable && enableJscrypto() ? encryptionMode : false, attr: {'value': Enums.EncryptionMode.AskMe}" />
+					</label>
+					<label for="tab_askme" data-bind="i18n: {'key': '%MODULENAME%/LABEL_ENCRYPTION_MODE_ASK'}"></label>
+
+					<label class="custom_radio" data-bind="css: {'checked': encryptionMode() == Enums.EncryptionMode.Never, 'disabled': !bIsHttpsEnable || !enableJscrypto()}">
+						<span class="icon"></span>
+						<input type="radio" id="tab_never" data-bind="checked: bIsHttpsEnable && enableJscrypto() ?encryptionMode : false, attr: {'value': Enums.EncryptionMode.Never}" />
+					</label>
+					<label for="tab_never" data-bind="i18n: {'key': '%MODULENAME%/LABEL_ENCRYPTION_MODE_NEVER'}"></label>
+				</span>
+			</div>
+		</div>
+		<div class="buttons">
+			<span class="button" data-bind="click: save, visible: !isSaving()">
+				<span data-bind="i18n: {'key': 'COREWEBCLIENT/ACTION_SAVE'}"></span>
+			</span>
+			<span class="button" data-bind="visible: isSaving()">
+				<span data-bind="i18n: {'key': 'COREWEBCLIENT/ACTION_SAVE_IN_PROGRESS'}"></span>
+			</span>
+		</div>
+			
+		<div class="fieldset keys">
+			<div class="row">
+				<span class="hint" data-bind="i18n: {'key': '%MODULENAME%/INFO_EMPTY_JSCRYPTO_KEY'}, visible: !keyName()"></span>
+			</div>
+			<div class="row" data-bind="visible: keyName()">
+				<span class="hint"  data-bind="i18n: {'key': '%MODULENAME%/HINT_ABOUT_KEY_EXPORT'}"></span>
+				<br /><br />
+				<div class="items_list folders">
+					<div class="item">
+						<span class="controls">
+							<span class="button delete" data-bind="customTooltip: '%MODULENAME%/ACTION_DELETE_KEY', click: function () { removeJscryptoKey(); }"></span>
+						</span>
+						<span class="name">
+							<span class="text" data-bind="i18n: {'key': '%MODULENAME%/LABEL_KEY'}"></span>: <span class="text" data-bind="text: keyName"></span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="buttons">
+				<span data-bind="click: (bIsHttpsEnable  && enableJscrypto())  ? exportKey : false, visible: keyName(), css: {'disabled': !bIsHttpsEnable || isImporting() || !enableJscrypto()}" class="button">
+					<span data-bind="i18n: {'key': '%MODULENAME%/ACTION_EXPORT_KEY'}"></span>
+				</span>
+				<span data-bind="click: (bIsHttpsEnable  && enableJscrypto()  && !isImporting()) ? importFileKey : false, visible: !keyName(), css: {'disabled': !bIsHttpsEnable || isImporting() || !enableJscrypto()}" class="button">
+					<span data-bind="i18n: {'key':  '%MODULENAME%/ACTION_IMPORT_FILE_KEY'}, visible: !isImporting()"></span>
+					<span data-bind="i18n: {'key':  '%MODULENAME%/ACTION_IMPORT_KEY_IN_PROGRESS'}, visible: isImporting()"></span>
+				</span>
+				<span data-bind="click: (bIsHttpsEnable  && enableJscrypto()  && !isImporting()) ? importStringKey : false, visible: !keyName(), css: {'disabled': !bIsHttpsEnable || isImporting() || !enableJscrypto()}" class="button">
+					<span data-bind="i18n: {'key': '%MODULENAME%/ACTION_IMPORT_STRING_KEY'}"></span>
+				</span>
+				<span data-bind="click: (bIsHttpsEnable  && enableJscrypto()  && !isImporting()) ? generateNewKey : false, visible: !keyName(), css: {'disabled': !bIsHttpsEnable || isImporting() || !enableJscrypto()}" class="button">
+					<span data-bind="i18n: {'key': '%MODULENAME%/ACTION_GENERATE_NEW_KEY'}"></span>
+				</span>
+				<div style="height:0px;overflow:hidden">
+					<input data-bind="event: { change: readKeyFromFile }" type="file" id="import-key-file" name="import-key-file" />
+				 </div>
+			</div>
+		</div>
+	</div>
+</div>

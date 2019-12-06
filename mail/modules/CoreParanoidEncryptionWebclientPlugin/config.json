@@ -1,0 +1,30 @@
+{
+	"Disabled": [
+		false,
+		"bool"
+	],
+	"AvailableFor": [
+		["FilesWebclient"],
+		"array"
+	],
+	"EnabledByDefault": [
+		false,
+		"bool"
+	],
+	"EncryptionModeByDefault": [
+		1,
+		"int"
+	],
+	"ChunkSizeMb": [
+		5,
+		"int"
+	],
+	"AllowMultiChunkUpload": [
+		true,
+		"bool"
+	],
+	"AllowChangeSettings": [
+		true,
+		"bool"
+	]	
+}

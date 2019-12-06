@@ -1,0 +1,18 @@
+{
+    "Disabled": [
+		false,
+		"bool"
+	],
+    "IncludePasswordInProfile": [
+		true,
+		"bool"
+	],
+	"AllowIosProfile": [
+		true,
+		"bool"
+	],
+	"SyncIosAfterLogin": [
+		true,
+		"bool"
+	]	
+}
