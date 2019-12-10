@@ -68,13 +68,8 @@
         ".\/",
         "string"
     ],
-    "TimeFormat": [
-        "F24",
-        "spec",
-        "\\Aurora\\System\\Enums\\TimeFormat"
-    ],
     "SiteName": [
-        "Afterlogic",
+        "Remo Marketing | E-mail",
         "string"
     ],
     "ProductName": [
@@ -84,5 +79,9 @@
     "AuthTokenCookieExpireTime": [
         30,
         "int"
+    ],
+    "TimeFormat": [
+        "0",
+        "string"
     ]
 }

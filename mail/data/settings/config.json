@@ -8,11 +8,11 @@
         "string"
     ],
     "AdminPassword": [
-        "",
+        "$2y$07$MTU3NTY3MzEzNS4wOTc0NuQoY.TpX2r8ZaFqwDRUkrPzqYuYABXAu",
         "string"
     ],
     "AdminLanguage": [
-        "English",
+        "Portuguese-Brazil",
         "string"
     ],
     "DBType": [
@@ -29,15 +29,15 @@
         "string"
     ],
     "DBName": [
-        "",
+        "remoma63_mail",
         "string"
     ],
     "DBLogin": [
-        "root",
+        "remoma63_mail-db",
         "string"
     ],
     "DBPassword": [
-        "",
+        "RRGAremo-db#5",
         "string"
     ],
     "UseSlaveConnection": [
