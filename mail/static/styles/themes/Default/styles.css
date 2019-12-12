@@ -5084,7 +5084,8 @@ html.mobile .LoginLayout {
 .login_panel .header .icon:before {
   color: #25AEB8;
   text-shadow: 0 1px 0 #ffffff, 0 -1px 0 #1c868e, -1px -1px #219aa3;
-  content: "\e63c";
+  content: url('../../images/logo.png');
+/*  content: "\e63c";*/
   display: inline-block;
   font-size: 140px;
   height: 100%;
@@ -5111,7 +5112,8 @@ html.mobile .LoginLayout {
 .login_panel .header .icon:before {
   color: #25AEB8;
   text-shadow: 0 1px 0 #ffffff, 0 -1px 0 #1c868e, -1px -1px #219aa3;
-  content: "\e63c";
+  content: url('../../images/logo.png');
+/*  content: "\e63c";*/
   display: inline-block;
   font-size: 140px;
   height: 100%;
@@ -5138,7 +5140,8 @@ html.mobile .LoginLayout {
 .login_panel .header .icon:before {
   color: #25AEB8;
   text-shadow: 0 1px 0 #ffffff, 0 -1px 0 #1c868e, -1px -1px #219aa3;
-  content: "\e63c";
+  content: url('../../images/logo.png');
+/*  content: "\e63c";*/
   display: inline-block;
   font-size: 140px;
   height: 100%;
@@ -5165,7 +5168,8 @@ html.mobile .LoginLayout {
 .login_panel .header .icon:before {
   color: #25AEB8;
   text-shadow: 0 1px 0 #ffffff, 0 -1px 0 #1c868e, -1px -1px #219aa3;
-  content: "\e63c";
+  content: url('../../images/logo.png');
+/*  content: "\e63c";*/
   display: inline-block;
   font-size: 140px;
   height: 100%;
@@ -8602,7 +8606,8 @@ html.mobile .LoginLayout {
 .login_panel .header .icon:before {
   color: #25AEB8;
   text-shadow: 0 1px 0 #ffffff, 0 -1px 0 #1c868e, -1px -1px #219aa3;
-  content: "\e63c";
+  content: url('../../images/logo.png');
+/*  content: "\e63c";*/
   display: inline-block;
   font-size: 140px;
   height: 100%;
@@ -8629,7 +8634,8 @@ html.mobile .LoginLayout {
 .login_panel .header .icon:before {
   color: #25AEB8;
   text-shadow: 0 1px 0 #ffffff, 0 -1px 0 #1c868e, -1px -1px #219aa3;
-  content: "\e63c";
+  content: url('../../images/logo.png');
+/*  content: "\e63c";*/
   display: inline-block;
   font-size: 140px;
   height: 100%;
@@ -8656,7 +8662,8 @@ html.mobile .LoginLayout {
 .login_panel .header .icon:before {
   color: #25AEB8;
   text-shadow: 0 1px 0 #ffffff, 0 -1px 0 #1c868e, -1px -1px #219aa3;
-  content: "\e63c";
+  content: url('../../images/logo.png');
+/*  content: "\e63c";*/
   display: inline-block;
   font-size: 140px;
   height: 100%;
@@ -8683,7 +8690,8 @@ html.mobile .LoginLayout {
 .login_panel .header .icon:before {
   color: #25AEB8;
   text-shadow: 0 1px 0 #ffffff, 0 -1px 0 #1c868e, -1px -1px #219aa3;
-  content: "\e63c";
+  content: url('../../images/logo.png');
+/*  content: "\e63c";*/
   display: inline-block;
   font-size: 140px;
   height: 100%;
