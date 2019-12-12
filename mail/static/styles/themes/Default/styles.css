@@ -3531,7 +3531,7 @@ html.rtl .quick_reply .buttons .full_form {
 .tabsbar .item {
   margin: 0px;
   padding: 4px 10px;
-  color: #503d68;
+  color: #3ba7b6;
   display: inline-block;
   font-size: 10.6pt;
   line-height: 120%;
@@ -3571,13 +3571,13 @@ html.rtl .tabsbar .item {
   vertical-align: middle;
 }
 .tabsbar .item:hover {
-  color: #503d68;
+  color: #3ba7b6;
 }
 .tabsbar .item:hover .text {
   text-decoration: none;
 }
 .tabsbar .item.current {
-  color: #503d68;
+  color: #3ba7b6;
   font-weight: bold;
 }
 .tabsbar .item.expand a,
