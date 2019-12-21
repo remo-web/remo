@@ -1578,7 +1578,7 @@ html.rtl .buttons {
   -moz-transition: background 200ms ease 0s;
   -o-transition: background 200ms ease 0s;
   transition: background 200ms ease 0s;
-  background: #43d0bf;
+  background: #0F4C81;
   border: 1px solid #0D3E69;
   color: #ffffff;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
@@ -1597,7 +1597,7 @@ html.rtl .buttons {
   color: #a1e8df;
 }
 .buttons .button.disabled:hover {
-  background: #43d0bf;
+  background: #0F4C81;
 }
 .buttons .button.secondary_button {
   background: #a7afb9;
@@ -7439,7 +7439,7 @@ blockquote {
   background: #6fa8de;
 }
 .buttons .contour_button {
-  color: #43d0bf;
+  color: #0F4C81;
 }
 .buttons .contour_button,
 .buttons .contour_button:hover {
