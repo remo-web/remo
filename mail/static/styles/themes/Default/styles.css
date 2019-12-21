@@ -1578,8 +1578,8 @@ html.rtl .buttons {
   -moz-transition: background 200ms ease 0s;
   -o-transition: background 200ms ease 0s;
   transition: background 200ms ease 0s;
-  background: #0f4c81;
-  border: 1px solid #4c77b1;
+  background: #43d0bf;
+  border: 1px solid #0D3E69;
   color: #ffffff;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
@@ -1591,13 +1591,13 @@ html.rtl .buttons {
   text-decoration: none;
 }
 .buttons .button:hover {
-  background: #002554;
+  background: #0D3E69;
 }
 .buttons .button.disabled {
   color: #a1e8df;
 }
 .buttons .button.disabled:hover {
-  background: #0f4c81;
+  background: #43d0bf;
 }
 .buttons .button.secondary_button {
   background: #a7afb9;
@@ -3563,7 +3563,7 @@ html.rtl .tabsbar .item {
   display: none;
 }
 .tabsbar .item .link {
-  color: inherit;
+  color: rgba(255,255,255,0.9);
   display: inline-block;
   outline: none;
   position: relative;
@@ -3958,7 +3958,7 @@ html.rtl .panel.left_panel .items_list .item > .title.droppableHover .name {
   cursor: pointer !important;
 }
 .panel.left_panel .items_list .item.selected > .title {
-  background: #287B8B;
+  background: #082742;
   color: #ffffff !important;
   text-shadow: none;
 }
@@ -3983,15 +3983,15 @@ html.rtl .panel.left_panel .items_list .item .count {
 }
 .panel.left_panel .items_list .item .count.unseen:hover {
   border-radius: 11px/10px;
-  background: #67a398;
+  background: #082742;
 }
 .panel.left_panel .items_list .item.selected > .title .count.unseen {
   border-radius: 11px/10px;
-  background: #74b7ab;
-  box-shadow: 0px 1px 1px #67a398 inset, 0px 1px 0px rgba(255, 255, 255, 0.3);
+  background: #0F4C81;
+  box-shadow: 0px 1px 1px #082742 inset, 0px 1px 0px rgba(255, 255, 255, 0.3);
 }
 .panel.left_panel .items_list .item.selected > .title .count.unseen:hover {
-  background: #67a398;
+  background: #082742;
 }
 .panel.left_panel .items_list.collapsible .item.accordion .collapse_handler {
   display: inline-block;
@@ -7322,7 +7322,7 @@ html.rtl .panel.compose table.fields .label {
   right: 0;
   top: auto;
   width: auto;
-  background: #0f4c81;
+  background: #0F4C81;
 }
 .compose_popup.minimized .toolbar {
   background: none;
@@ -7439,7 +7439,7 @@ blockquote {
   background: #6fa8de;
 }
 .buttons .contour_button {
-  color: #0f4c81;
+  color: #43d0bf;
 }
 .buttons .contour_button,
 .buttons .contour_button:hover {
@@ -7767,7 +7767,7 @@ html.rtl .panels.settings .folders .items_list .item > .title.droppableHover .na
   cursor: pointer !important;
 }
 .panels.settings .folders .items_list .item.selected > .title {
-  background: #287B8B;
+  background: #082742;
   color: #ffffff !important;
   text-shadow: none;
 }
@@ -7792,15 +7792,15 @@ html.rtl .panels.settings .folders .items_list .item .count {
 }
 .panels.settings .folders .items_list .item .count.unseen:hover {
   border-radius: 11px/10px;
-  background: #67a398;
+  background: #082742;
 }
 .panels.settings .folders .items_list .item.selected > .title .count.unseen {
   border-radius: 11px/10px;
-  background: #74b7ab;
-  box-shadow: 0px 1px 1px #67a398 inset, 0px 1px 0px rgba(255, 255, 255, 0.3);
+  background: #0F4C81;
+  box-shadow: 0px 1px 1px #082742 inset, 0px 1px 0px rgba(255, 255, 255, 0.3);
 }
 .panels.settings .folders .items_list .item.selected > .title .count.unseen:hover {
-  background: #67a398;
+  background: #082742;
 }
 .panels.settings .folders .items_list.collapsible .item.accordion .collapse_handler {
   display: inline-block;
