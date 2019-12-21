@@ -1578,8 +1578,8 @@ html.rtl .buttons {
   -moz-transition: background 200ms ease 0s;
   -o-transition: background 200ms ease 0s;
   transition: background 200ms ease 0s;
-  background: #43d0bf;
-  border: 1px solid #2db3a3;
+  background: #0f4c81;
+  border: 1px solid #4c77b1;
   color: #ffffff;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
@@ -1591,13 +1591,13 @@ html.rtl .buttons {
   text-decoration: none;
 }
 .buttons .button:hover {
-  background: #32c8b6;
+  background: #002554;
 }
 .buttons .button.disabled {
   color: #a1e8df;
 }
 .buttons .button.disabled:hover {
-  background: #43d0bf;
+  background: #0f4c81;
 }
 .buttons .button.secondary_button {
   background: #a7afb9;
@@ -7322,7 +7322,7 @@ html.rtl .panel.compose table.fields .label {
   right: 0;
   top: auto;
   width: auto;
-  background: #43d0bf;
+  background: #0f4c81;
 }
 .compose_popup.minimized .toolbar {
   background: none;
@@ -7439,7 +7439,7 @@ blockquote {
   background: #6fa8de;
 }
 .buttons .contour_button {
-  color: #43d0bf;
+  color: #0f4c81;
 }
 .buttons .contour_button,
 .buttons .contour_button:hover {
