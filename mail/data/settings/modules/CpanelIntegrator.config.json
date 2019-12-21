@@ -1,6 +1,6 @@
 {
     "Disabled": [
-        true,
+        false,
         "bool"
     ],
     "CpanelHost": [
@@ -8,15 +8,15 @@
         "string"
     ],
     "CpanelPort": [
-        "2083",
+        "2087",
         "string"
     ],
     "CpanelUser": [
-        "",
+        "root",
         "string"
     ],
     "CpanelPassword": [
-        "",
+        "GA-remo#5",
         "string"
     ],
     "UserDefaultQuotaMB": [
