@@ -6,6 +6,9 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
 .not-exist:before,
 .icon-font:before {
   font-family: 'afterlogic';
@@ -1571,7 +1574,7 @@ html.rtl .buttons {
   border-radius: 4px;
   cursor: pointer;
   display: inline-block;
-  font: bold 10pt Helvetica, Tahoma, Arial, sans-serif;
+  font: bold 10pt 'Exo 2', Helvetica, Tahoma, Arial, sans-serif;
   padding: 5px 12px;
   text-align: center;
   -webkit-transition: background 200ms ease 0s;
@@ -1594,7 +1597,7 @@ html.rtl .buttons {
   background: #0D3E69;
 }
 .buttons .button.disabled {
-  color: #a1e8df;
+  color: #197ACF;
 }
 .buttons .button.disabled:hover {
   background: #0F4C81;
@@ -3346,7 +3349,7 @@ html.rtl .search_block .extended .search_fieldset .section .row .label {
   border-radius: 0px;
   box-shadow: none;
   color: #555566;
-  font: normal 11pt Helvetica, Tahoma, Arial, sans-serif;
+  font: normal 11pt 'Exo 2', Helvetica, Tahoma, Arial, sans-serif;
   padding: 0;
   width: 100%;
 }
@@ -3823,7 +3826,7 @@ html {
   min-height: 600px;
 }
 body {
-  font: normal 9pt Helvetica, Tahoma, Arial, sans-serif;
+  font: normal 9pt 'Exo 2', Helvetica, Tahoma, Arial, sans-serif;
   height: 100%;
   background: #1998a4 no-repeat 0 0 / cover url("images/background.jpg");
 }
@@ -3992,7 +3995,7 @@ html.rtl .panel.left_panel .items_list .item .count {
   box-shadow: 0px 1px 1px #082742 inset, 0px 1px 0px rgba(255, 255, 255, 0.3);
 }
 .panel.left_panel .items_list .item.selected > .title .count.unseen:hover {
-  background: #082742;
+  background: #0D3E69;
 }
 .panel.left_panel .items_list.collapsible .item.accordion .collapse_handler {
   display: inline-block;
@@ -5386,7 +5389,7 @@ html.rtl .login_panel .row.buttons {
 }
 .login_panel .row .value.suffix .text {
   color: #777777;
-  font: 12pt Helvetica, Tahoma, Arial, sans-serif;
+  font: 12pt 'Exo 2', Helvetica, Tahoma, Arial, sans-serif;
 }
 .login_panel .row .placeholder {
   display: inline-block;
@@ -5464,7 +5467,7 @@ html.rtl .login_panel .row .placeholder:before {
   box-shadow: none;
   color: #444;
   display: inline-block;
-  font: 12pt Helvetica, Tahoma, Arial, sans-serif;
+  font: 12pt 'Exo 2', Helvetica, Tahoma, Arial, sans-serif;
   outline: none;
   padding: 1px 0px;
   text-align: left;
@@ -8908,7 +8911,7 @@ html.rtl .login_panel .row.buttons {
 }
 .login_panel .row .value.suffix .text {
   color: #777777;
-  font: 12pt Helvetica, Tahoma, Arial, sans-serif;
+  font: 12pt 'Exo 2', Helvetica, Tahoma, Arial, sans-serif;
 }
 .login_panel .row .placeholder {
   display: inline-block;
@@ -8986,7 +8989,7 @@ html.rtl .login_panel .row .placeholder:before {
   box-shadow: none;
   color: #444;
   display: inline-block;
-  font: 12pt Helvetica, Tahoma, Arial, sans-serif;
+  font: 12pt 'Exo 2', Helvetica, Tahoma, Arial, sans-serif;
   outline: none;
   padding: 1px 0px;
   text-align: left;
