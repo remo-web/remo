@@ -9296,6 +9296,7 @@ html.rtl .LoginLayout .languages.demo {
   padding: 0px;
 }
 .LoginLayout .buttons .button {
+    text-transform: uppercase;
   display: block;
   font-size: 12pt;
   padding: 10px;
