@@ -1620,6 +1620,7 @@ html.rtl .buttons {
   padding: 10px 16px;
 }
 .buttons.big_single_button .button {
+    text-transform: uppercase;
   display: block;
   height: 30px;
   line-height: 30px;
